@@ -180,7 +180,27 @@ section h2 {
     font-size: 3em;
 }
 
+
+
+section.who {
+    color: #fff;
+    background: #{{ site.color.primary }};
+}
+
+section.technology {
+    background: #{{ site.color.primary-rgb }};
+}
+
+section.challenges {
+    color: #fff;
+    background: #{{ site.color.primary }};
+}
+
 section.success {
+    background: #{{ site.color.primary-rgb }};
+}
+
+section.appendix {
     color: #fff;
     background: #{{ site.color.primary }};
 }
